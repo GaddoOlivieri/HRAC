@@ -1,0 +1,15 @@
+{
+  "training_start": "2023-01-01",
+  "training_end": "2026-09-22",
+  "model": "XGBoost regression with EIA gas price",
+  "gas_series": "EMM_EPMR_PTE_R1Y_DPG",
+  "gas_area": "Central Atlantic (PADD 1B), EIA proxy for New Jersey",
+  "forecast_policy": "Freeze latest observation before forecast month",
+  "rolling_validation": {
+    "mae": 1267832.3405555557,
+    "rmse": 1747011.756085358,
+    "wmape": 0.12674485709293848,
+    "r2": 0.9042858341312011
+  },
+  "interval_half_width_80": 1948728.8000000005
+}
