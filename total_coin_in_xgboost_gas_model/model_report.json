@@ -1,0 +1,21 @@
+{
+  "name": "Total CoinIn XGBoost Gas Model",
+  "target": "Total Coin In",
+  "training_rows": 1339,
+  "training_start": "2023-01-01",
+  "training_end": "2026-08-31",
+  "model": "XGBoost regression with EIA gas price",
+  "gas_series": "EMM_EPMR_PTE_R1Y_DPG",
+  "gas_area": "Central Atlantic (PADD 1B), EIA proxy for New Jersey",
+  "forecast_policy": "Freeze latest observation before forecast month",
+  "validation": {
+    "period": "2025-09 through 2026-08",
+    "method": "12 monthly point-in-time retrainings using prior data only",
+    "average_absolute_monthly_variance_percent": 0.0385816001095759,
+    "aggregate_projected": 4086920217,
+    "aggregate_actual": 4031119898,
+    "aggregate_variance_percent": 0.013842386337276838,
+    "daily_wmape": 0.12238793176178557
+  },
+  "interval_half_width_80": 2058395.0
+}
