@@ -19,3 +19,6 @@ model and is trained through October 31, 2026.
 
 Its point-in-time backtest metrics and model provenance are recorded in
 `total_coin_in_xgboost_gas_model/model_report.json`.
+
+Daily production forecasts are stored in
+`total_coin_in_xgboost_gas_model/forecasts/`.
