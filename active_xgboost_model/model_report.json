@@ -1,15 +1,27 @@
 {
   "training_start": "2023-01-01",
-  "training_end": "2026-09-22",
+  "training_end": "2026-10-31",
+  "training_rows": 1400,
+  "target": "Rated Coin In",
   "model": "XGBoost regression with EIA gas price",
   "gas_series": "EMM_EPMR_PTE_R1Y_DPG",
   "gas_area": "Central Atlantic (PADD 1B), EIA proxy for New Jersey",
+  "gas_history_through": "2026-11-16",
   "forecast_policy": "Freeze latest observation before forecast month",
   "rolling_validation": {
-    "mae": 1267832.3405555557,
-    "rmse": 1747011.756085358,
-    "wmape": 0.12674485709293848,
-    "r2": 0.9042858341312011
+    "mae": 1292062.5052777778,
+    "rmse": 1755484.9802085855,
+    "wmape": 0.13226007689155628,
+    "r2": 0.9044770762629268
   },
-  "interval_half_width_80": 1948728.8000000005
+  "point_in_time_12_month_backtest": {
+    "period": "2025-11 through 2026-10",
+    "average_absolute_monthly_variance_percent": 0.04470761443384294,
+    "aggregate_projected": 3541235050,
+    "aggregate_actual": 3492434768,
+    "aggregate_variance_percent": 0.013973140585800055,
+    "daily_wmape": 0.1431535708500311,
+    "daily_r2": 0.8926976707011439
+  },
+  "interval_half_width_80": 1967857.2000000004
 }
