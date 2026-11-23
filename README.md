@@ -15,7 +15,7 @@ validation metrics, and forecast policy are recorded in
 The Total Coin In production model is stored in
 `total_coin_in_xgboost_gas_model/coin_in_model.joblib`. It uses the same
 XGBoost configuration and EIA Central Atlantic gas-price policy as the active
-model and is trained through August 31, 2026.
+model and is trained through October 31, 2026.
 
 Its point-in-time backtest metrics and model provenance are recorded in
 `total_coin_in_xgboost_gas_model/model_report.json`.
